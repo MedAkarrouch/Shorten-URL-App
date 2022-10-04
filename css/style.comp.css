@@ -8,8 +8,9 @@
   border-radius: 50px;
   transition: background-color 0.2s;
   letter-spacing: 1px; }
-  .menu__list .menu__item:last-child .menu__link:hover:last-child, .header__list .header__item:last-child .header__link:hover:last-child, .hero__btn:hover, .about__delete:hover, .about__copy:hover, .about__btn:hover, .boost__btn:hover {
-    background-color: #7ce4e4; }
+  @media (hover: hover) {
+    .menu__list .menu__item:last-child .menu__link:hover:last-child, .header__list .header__item:last-child .header__link:hover:last-child, .hero__btn:hover, .about__delete:hover, .about__copy:hover, .about__btn:hover, .boost__btn:hover {
+      background-color: #7ce4e4; } }
 
 .hero__paragraph, .about__subheading {
   color: #9e9aa7;
@@ -100,8 +101,9 @@ main {
     color: #fff;
     font-weight: 600;
     font-size: 1.4rem; }
-  .menu__link:hover {
-    color: #2acfcf; }
+  @media (hover: hover) {
+    .menu__link:hover {
+      color: #2acfcf; } }
 
 .menu.show-menu {
   transform: translateY(0); }
@@ -142,15 +144,17 @@ main {
     width: 2.1rem;
     height: 2.1rem;
     color: #fff; }
-    .footer__social-img:hover {
-      color: #2acfcf; }
+    @media (hover: hover) {
+      .footer__social-img:hover {
+        color: #2acfcf; } }
   .footer__link:link, .footer__link:visited {
     color: #bfbfbf;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem; }
-  .footer__link:hover {
-    color: #2acfcf; }
+  @media (hover: hover) {
+    .footer__link:hover {
+      color: #2acfcf; } }
   @media (min-width: 56.25em) {
     .footer__content {
       grid-template-columns: 1fr repeat(4, minmax(min-content, 12rem));
@@ -195,8 +199,9 @@ main {
     font-weight: 600;
     font-size: 1.1rem;
     transition: color 0.2s; }
-  .header__link:hover {
-    color: #35323e; }
+  @media (hover: hover) {
+    .header__link:hover {
+      color: #35323e; } }
   .header__btn {
     display: block;
     border: none;
@@ -330,8 +335,9 @@ main {
     justify-self: center; }
   .about__delete {
     background-color: #f46262; }
-    .about__delete:hover {
-      background-color: rgba(244, 98, 98, 0.6); }
+    @media (hover: hover) {
+      .about__delete:hover {
+        background-color: rgba(244, 98, 98, 0.6); } }
   .about__input {
     font-family: inherit;
     font-size: inherit;
